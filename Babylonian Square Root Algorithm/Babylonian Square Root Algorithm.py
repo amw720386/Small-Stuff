@@ -1,7 +1,5 @@
-number_str = input("Find the square root of integer: ")
-number_int = int(number_str)
-guess_str = input("Initial guess: ")
-guess_float = float(guess_str)
+number = int(input("Find the square root of integer: "))
+guess = int(input("Initial guess: "))
 tolerance_float = float(input("What tolerance: "))
 original_guess_float = guess_float # hang onto the o ri ginal guess
 count_int = 0 # count the number of guesses
